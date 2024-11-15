@@ -1,0 +1,106 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+body {
+    display: flex;
+    flex-wrap: wrap;
+}
+header {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 20vh;
+    font-size: 40px;
+    background-color: #f1e4b0;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 30%;
+    height: 70vh;
+    background-color: #fefbda
+}
+.red {
+    color: rgb(185, 22, 22);
+    list-style-type: upper-roman;
+}
+.green {
+    color: rgb(21, 85, 21);
+    list-style-type: disc;
+}
+.gray {
+    color: gray;
+    list-style-type: square;
+}
+
+ol, ul {
+    font-size: 40px;
+}
+ul {
+    margin-left: 50px;
+}
+
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 70%;
+    height: 60vh;
+    background-color: #fff;
+
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    width: 100%;
+    height: 10vh;
+    background-color: #ff7f27;
+    font-size: 20px;
+    font-weight: bold;
+}
+.buttons {
+    display: flex;
+    justify-content: center;
+    width: 80%;
+    height: 20%;
+
+}
+button {
+    width: 25%;
+    height: 100%;
+    border: 5px outset #bb8660;
+    background-color: #ffffff;
+    margin-left: 30px;
+    font-size: 20px;
+}
+
+a {
+    color: orange;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a:visited {
+    color: rgb(8, 85, 8); 
+}
+button:hover {
+    background-color: #a8a8a8;
+    cursor: pointer;
+}
+img.slimak {
+    width: 15%;
+    height: 80%;
+}
+
+img.zaba {
+    width: 40%;
+    height: 80%;
+}
